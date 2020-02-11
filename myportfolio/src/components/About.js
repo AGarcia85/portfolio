@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Alex from '../images/AlexG.jpg';
+import './About.css'
 
 class About extends Component {
 
@@ -6,8 +8,7 @@ class About extends Component {
         return (
             <div className="about-container">
                 <h1>About Me</h1>
-                
-
+                <img className="alex" src={Alex} alt="AlexG" ></img>
             </div>
         )
     }
