@@ -4,6 +4,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import  Home from "./components/Home";
+import Blue from "./images/bluelines.jpg"
 import './App.css';
 
 class App extends Component {
@@ -18,7 +19,9 @@ class App extends Component {
           <Link to="contact"><h3>Contact</h3></Link>
         </nav>
         <main>
-          <Route path="/" exact component={Home} />
+          <Route path="/" exact component={Home}>
+            <img className="home" src={Blue} alt="moon"></img>
+          </Route>
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />

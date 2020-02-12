@@ -1,4 +1,22 @@
-img {
-    width: 100px;
-    height: 100px;
+@import url('https://fonts.googleapis.com/css?family=Expletus+Sans|Special+Elite&display=swap');
+
+
+.about-container {
+    
+}
+.alex {
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 130px;
+}
+
+h1 {
+    font-family: 'Special Elite', cursive;
+}
+
+
+p {
+    font-family: 'Expletus Sans', cursive;
 }
