@@ -2,7 +2,7 @@
 
 
 .about-container {
-    
+    text-align: center;
 }
 .alex {
     margin: 20px;
@@ -19,4 +19,7 @@ h1 {
 
 p {
     font-family: 'Expletus Sans', cursive;
+    text-align: center;
+    width: 70%;
+    margin: auto;
 }
