@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Expletus+Sans|Special+Elite&display=swap');
+
+.contact-container {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'Special Elite', cursive;
+}
+
+li {
+    list-style-type: none;
+    font-family: 'Expletus Sans', cursive;
+    font-weight: bolder;
+}
+
+.gmailIcon {
+    max-width: 50px;
+}
+
+.link {
+    max-width: 55px;
+}
+
+.git {
+    max-width: 50px;
+}
