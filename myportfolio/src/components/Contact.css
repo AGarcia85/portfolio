@@ -7,24 +7,42 @@
     margin: auto;
 }
 
+.phoneContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 h2 {
     font-family: 'Special Elite', cursive;
 }
 
-li {
+.phone {
+    max-width: 40px;
+}
+
+h4 {
     list-style-type: none;
     font-family: 'Expletus Sans', cursive;
     font-weight: bolder;
 }
 
+/* .gmailContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} */
+
 .gmailIcon {
-    max-width: 50px;
+    max-width: 75px;
 }
 
 .link {
-    max-width: 55px;
+    max-width: 80px;
 }
 
 .git {
-    max-width: 50px;
+    max-width: 75px;
 }
