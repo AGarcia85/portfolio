@@ -78,8 +78,8 @@ class Projects extends Component {
                     </Link>
                 </div>
                 <div className="soon">
-                    <h4>Coming Soon</h4>
-                    <h5>Boxing Bulldogs Website</h5>
+                    <h3 className="soon" >Coming Soon</h3>
+                    <h4>Boxing Bulldogs Website</h4>
                 </div>
 
             </div>

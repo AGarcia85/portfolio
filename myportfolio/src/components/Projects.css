@@ -18,8 +18,9 @@
     background-position: center;
 }
 
-h5{
+.soon {
     font-family: 'Expletus Sans', cursive;
     font-weight: bolder;
     font-size: 25px;
+    color: black;
 }
