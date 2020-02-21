@@ -28,8 +28,7 @@ class Contact extends Component {
                     <h4>afgarcia777@gmail.com</h4>
                     <a href="mailto:afgarcia777@gmail.com"><img className="gmailIcon" src={Gmail} /></a>    
                     <Link onClick={this.openLink}><img className="link" src={Linkedin}/></Link>
-                    <Link onClick={this.openGit}><img className="git" src={Github}></img></Link>
-                
+                    <Link onClick={this.openGit}><img className="git" src={Github}></img></Link>               
             </div>
         )
     }
