@@ -39,11 +39,20 @@ a {
   }
 
   .home{
+    height: 750px;
     background-size: cover;
     background-position: center;
   }
 
   h3 {
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .home{
+    height: 1030px;
+    background-size: cover;
+    background-position: center;
   }
 }
