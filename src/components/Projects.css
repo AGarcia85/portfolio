@@ -24,3 +24,13 @@
     font-size: 25px;
     color: black;
 }
+
+@media screen and (max-width: 425px) {
+    .projects-container {
+        width: 90%;
+    }
+    .projects {
+        width: 75%;
+        height: 150px;
+    }
+}

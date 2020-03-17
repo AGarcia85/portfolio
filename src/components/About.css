@@ -21,4 +21,14 @@ h1 {
     text-align: center;
     width: 70%;
     margin: 20px auto;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 425px) {
+    .alex {
+        width: 200px;
+        height: 200px;
+        border-radius: 80px;
+    }
+
 }
