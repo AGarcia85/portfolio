@@ -39,3 +39,9 @@ h4 {
 .git {
     max-width: 75px;
 }
+
+.phoneNum {
+    font-family: 'Expletus Sans', cursive;
+    font-weight: bolder;
+    color: black;
+}

@@ -23,7 +23,7 @@ class Contact extends Component {
                 <h2>Reach out and say hello</h2>
                 <div className="phoneContainer">
                     <img className="phone" src={phone}></img>
-                    <h4>571.420.9209</h4>
+                    <a href="tel:571-420-9209" className="phoneNum" >571.420.9209</a>
                 </div>
                     <h4>afgarcia777@gmail.com</h4>
                     <a href="mailto:afgarcia777@gmail.com"><img className="gmailIcon" src={Gmail} /></a>    
