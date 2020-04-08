@@ -23,7 +23,7 @@ class Projects extends Component {
     }
 
     openSimon() {
-        window.open("https://dazzling-einstein-b74c7a.netlify.com/")
+        window.open("https://trusting-minsky-3fccfb.netlify.com//")
     }
 
     openDoggos() {
