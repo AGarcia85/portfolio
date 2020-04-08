@@ -48,7 +48,7 @@ class Projects extends Component {
                         <img className="projects" src={Project1}></img>
                     </Link>
                     {/* <h4>My First Project V.2</h4> */}
-                    <img className="projects"></img>
+                    {/* <img className="projects"></img> */}
                 </div>
                 <div className="project2" >
                     <h4>UI-Modal Project</h4>
