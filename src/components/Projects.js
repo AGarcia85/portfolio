@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Project1 from '../images/mockweb.png';
 import Shark from '../images/sharkModal.png';
-import Simon from '../images/Simon.png';
+import Simon from '../images/Simon.png'
 import Dogs from '../images/puppies.png';
 import Front from '../images/breakingBad.png';
 import Back from '../images/BB2.png';
