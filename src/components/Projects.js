@@ -45,7 +45,7 @@ class Projects extends Component {
                 <div className="project1">
                     <h4>My First Project</h4>
                     <Link onClick={this.openMock}>
-                        <img className="projects" src={Project1}></img>
+                        <img className="projects" src={Project1} alt="boxing page"></img>
                     </Link>
                     {/* <h4>My First Project V.2</h4> */}
                     {/* <img className="projects"></img> */}
@@ -53,28 +53,28 @@ class Projects extends Component {
                 <div className="project2" >
                     <h4>UI-Modal Project</h4>
                     <Link onClick={this.openModal}>
-                        <img className="projects" src={Shark}></img>
+                        <img className="projects" src={Shark} alt="shark page"></img>
                     </Link>
                 </div>
                 <div className="project3" >
                     <h4>Simon Game</h4>
                     <Link onClick={this.openSimon}>
-                        <img className="projects" src={Simon}></img>
+                        <img className="projects" src={Simon} alt="simon game"></img>
                     </Link>
                 </div>
                 <div className="project4" >
                     <h4>React UI-Modal Project</h4>
                     <Link onClick={this.openDoggos}>
-                        <img className="projects" src={Dogs}></img>
+                        <img className="projects" src={Dogs} alt="doggo page"></img>
                     </Link>
                 </div>
                 <div className="project5" >
                     <h4>Fullstack Project</h4>
                     <Link onClick={this.openBB1}>
-                        <img className="projects" src={Front}></img>
+                        <img className="projects" src={Front} alt="breaking bad page"></img>
                     </Link>
                     <Link onClick={this.openBB2}>
-                        <img className="projects" src={Back}></img>
+                        <img className="projects" src={Back} alt="json page for breaking bad"></img>
                     </Link>
                 </div>
                 <div className="soon">

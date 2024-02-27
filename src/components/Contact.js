@@ -22,13 +22,13 @@ class Contact extends Component {
                 <h1>Contact Information</h1>
                 <h2>Reach out and say hello</h2>
                 <div className="phoneContainer">
-                    <img className="phone" src={phone}></img>
+                    <img className="phone" src={phone} alt="phone"></img>
                     <a href="tel:571-420-9209" className="phoneNum" >571.420.9209</a>
                 </div>
                     <h4>afgarcia777@gmail.com</h4>
-                    <a href="mailto:afgarcia777@gmail.com"><img className="gmailIcon" src={Gmail} /></a>    
-                    <Link onClick={this.openLink}><img className="link" src={Linkedin}/></Link>
-                    <Link onClick={this.openGit}><img className="git" src={Github}></img></Link>               
+                    <a href="mailto:afgarcia777@gmail.com"><img className="gmailIcon" src={Gmail} alt="gmail icon" /></a>    
+                    <Link onClick={this.openLink}><img className="link" src={Linkedin} alt="linkedin icon"/></Link>
+                    <Link onClick={this.openGit}><img className="git" src={Github} alt="github icon"></img></Link>               
             </div>
         )
     }
