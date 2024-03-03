@@ -79,7 +79,7 @@ class Projects extends Component {
                 </div>
                 <div className="soon">
                     <h3 className="soon" >Coming Soon</h3>
-                    <h4>Boxing Bulldogs Website</h4>
+                    <h4>Portfolio Update</h4>
                 </div>
 
             </div>
